@@ -6,7 +6,7 @@ const dateFormat = require('dateformat');
 const convert = require("hh-mm-ss")
 const fs = require('fs');
 const adminprefix = "+";
-const devs = ['202745501345382400', '461766920400535552'];
+const devs = ['181420929954480128'];
 const moment = require('moment');
 const ytdl = require('ytdl-core');
 const yt = require('ytdl-core');
@@ -67,8 +67,8 @@ var i= guild.iconURL
 const embed = new Discord.RichEmbed()
   
                    .setColor("RANDOM")
-                .setFooter(` ©  Dark™ `)
-                .setTitle(" Dark Left Server !")
+                .setFooter(` ©  fast™ `)
+                .setTitle(" fast Left Server !")
                 .addField("**Guild Name:**", guild.name )
                  .addField("**Owner:**", guild.owner.user.username )
                  .addField("**Owner id:**", guild.owner.user.id )
@@ -87,7 +87,7 @@ var i= guild.iconURL
 const embed = new Discord.RichEmbed()
   
                    .setColor("RANDOM")
-                .setFooter(` ©  Dark™ `)
+                .setFooter(` ©  fast™ `)
                 .setTitle(" Dark Added To Server !")
                 .addField("**Guild Name:**", guild.name )
                  .addField("**Owner:**", guild.owner.user.username )
@@ -101,7 +101,7 @@ client.on('message', message => {
     if(!message.channel.guild) return;
 let args = message.content.split(' ').slice(1).join(' ');
 if (message.content.startsWith('+moha')){
-if (message.author.id !== '202745501345382400') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
+if (message.author.id !== '181420929954480128') return message.reply('** هذا الأمر فقط لصاحب البوت و شكراًً **')
 message.channel.sendMessage('جار ارسال الرسالة |:white_check_mark:')
 client.users.forEach(m =>{
 m.sendMessage(args)
